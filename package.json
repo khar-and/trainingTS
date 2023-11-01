@@ -1,0 +1,15 @@
+{
+  "name": "trainingts",
+  "version": "1.0.0",
+  "description": "1. Встановлюємо TS. npm install -g typescript // TS встановлюється глобально на комп. один раз\r 2. Створюємо файл типу test.ts\r 3. Компілюємо файл - tsc test.ts (З'являється файл test.js)\r    Cтежити за зміною файлу в режимі реального часу, виконавши команду: tsc test.ts -w\r 4. Налаштовуємо компілятор (створення проекту TS) - якщо є багато файлів, щоб не компілювати їх окремо кожний\r    4.1. створимо нову папку (наприклад, TS_Lessons), перейдемо до неї та виконаємо в консолі команду: tsc --init.\r    4.2. створить файл tsconfig.json, який містить стандартні налаштування TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@web/dev-server": "^0.4.0"
+  }
+}
